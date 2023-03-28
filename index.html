@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kareem Profile</title>
+
+        <style>
+            
+            body{
+                background-color: rgba(209, 202, 255, 0.271);
+                height: 1500px;
+            }
+            .center{
+                display: block;
+                margin: 0 auto;
+                
+
+            }
+            #profileimg{
+                display: block;
+                margin: 0 auto;
+                height: 200px;
+                width: 200px;
+            }
+            .Appimg{
+                display: inline-block;
+                border-radius: 50%;
+                height: 100px;
+                width: 100px;
+            }
+            img{
+                margin: 5px;
+            }
+            li {
+                margin: 20px;
+                border: 0px solid;
+                padding-right: 10px;
+                list-style-type: none;
+                display: inline-block;
+                text-align: center;
+            }
+            .headlist{
+                display: inline;
+            }
+            th,td {
+                
+                text-align: center;
+                background-color: #7fffd4;
+                
+            }
+            table,th,tr,td{
+                
+                border: 1px solid whitesmoke;
+                border-collapse: collapse;
+                border-radius: 10px;
+                
+                width: 700px;
+            }
+            
+            
+            h1,h2,h3{
+                font-family: 'Lucida Sans';
+                text-decoration: underline aquamarine 2px;
+            }
+            
+            #test{
+                border: solid 1px;
+            }
+
+            .textlocation{
+                text-align: left;
+            }
+            div{
+                border: solid 0px;
+            }
+            textarea{
+                margin-left: 60px;
+            }
+            .button{
+                position: absolute;
+                width: 15%;
+                height: 25px;
+                margin: 25px 42.5%;
+                background-color: aquamarine;
+                border: 1px solid azure;
+                border-radius: 10%;
+                box-shadow: 4px 3px 2px rgba(74, 73, 73, 0.178);
+                font-size: medium;
+                font-weight: 700;
+
+            }
+            .button:hover{
+                background-color: rgb(87, 191, 255);
+            }
+            td:hover{
+                background-color: rgb(87, 191, 255);
+            }
+            #Size{
+                padding: 0px 10px 0 10px;
+                position: relative;
+                width: 70%;
+                margin: 0 auto;
+                border: 2px solid;
+                border-color: rgba(11, 69, 50, 0.463);
+                background-color: rgb(255, 255, 255);
+                box-shadow: 4px 3px 2px rgba(74, 73, 73, 0.178);
+            }
+            #posabs{
+                width: 70%;
+                position: absolute;
+            }
+            .icon{
+                height: 40px;
+                width: 40px;
+                vertical-align: middle;
+            }
+            .iconestyle{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+                font-weight: 900;
+                color: aquamarine;
+                text-shadow: 1px 1px gray;
+                text-decoration: none;
+            }
+            a{
+                
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                color: aquamarine;
+                text-shadow: 1px 1px gray;
+                text-decoration: none;
+            
+            }
+            .iconestyle:hover,a:hover{
+                color: rgb(158, 197, 249);
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+        <div id="Size">
+            <h1>Kareem Malhis</h1>
+            <img src="default-profile-icon-24.jpg" alt="Profile.png" id="profileimg">
+
+            <div class="center">
+                <ul class="center">
+                    <li class="headlist"><a href="https://github.com/Kareem-124" class="iconestyle"><img src="github-512_icon.png" alt="github.png" class="icon">Github</a></li>
+                    <li class="headlist"><a href="linkedin" class="iconestyle"><img src="linkedin-icon-logo-png-transparent.png" alt="Linkedin.png" class="icon" >Linkedin</a></li>
+                    <li class="headlist"><a href="facebook.com" class="iconestyle"><img src="facebook_circle_color-512.png" alt="Facebook.png" class="icon">Facebook</a></li>
+                    <li class="headlist"><a href="outlook.com" class="iconestyle"><img src="hd-letter-email-round-blue-icon-transparent-png-11637141038bsz4tzs1ur.png" alt="email.png" class="icon">E-mail</a></li>
+
+                </ul>
+            </div>
+            <hr>
+            <h3>Technologies</h3>
+
+            <div >
+                <table class="center">
+                <tr>
+                    <th>Front-End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Django</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Flask</td>
+                    <td>Mongoos</td>
+                    <td>MySQL Lite</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Tinkret</td>
+                    <td>React</td>
+                    
+                </tr>
+                </table>
+            </div>
+            <hr>
+            <h2>Demo Applications</h2>
+            <div>
+            <img src="App.png" alt="application_icon" class="Appimg">
+            <img src="App2.png" alt="application_icon" class="Appimg">
+            </div>
+            <p>An application used to re-distribute land Shares between 6 owners using Python  <a href=""> Code </a> | <a href="">Download</a></p>
+            <hr>
+            <h2>Contact me</h2>
+            <div>
+                <label>Name</label>
+                <input type="text" name="Name" placeholder="Enter you Name....">
+                <label>Email</label>
+                <input type="text" name="Email" placeholder="Example@outlook.com">
+            </div>
+            <br>
+            <div class="textlocation">
+                <div><label for="Message">Message:</label></div>
+                <textarea name="Message" cols="35" rows="15"></textarea>
+            </div>
+            <div><input type="submit" name="Submit" value="Submit" class="button"></div>
+
+        </div>
+    </body>
+</html>
